@@ -39,3 +39,18 @@ section {
 .hero--text {
   margin-top: 0;
 }
+
+.card > h4 {
+  position: absolute;
+  width: 175px;
+  height: 14px;
+  left: 37px;
+  top: 787px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+  color: #222222;
+}

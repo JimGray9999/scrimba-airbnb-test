@@ -1,4 +1,7 @@
 import React from "react";
+import star from "../images/star.png";
+import ellipse from "../images/ellipse.png";
+import katieZaferes from "../images/katie-zaferes.png";
 
 /*
 Challenge: Build the Card component
@@ -20,5 +23,17 @@ Notes:
 */
 
 export default function Card() {
-  return <h1>Replace this</h1>;
+  return (
+    <div className="card">
+      <img src={katieZaferes} alt="Katie Zaferes" />
+      <img src={star} alt="star" />
+      <h5>5.0 (6)</h5>
+      <img src={ellipse} alt="ellipse" />
+      <h5>USA</h5>
+      <h4>Life lessons with Katie Zaferes</h4>
+      <h4>
+        <b>From $136</b> / person
+      </h4>
+    </div>
+  );
 }
