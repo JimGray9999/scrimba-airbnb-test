@@ -11,7 +11,15 @@ nav {
   height: 70px;
   display: flex;
   padding: 20px 36px;
-  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2.98256px 7.4564px rgba(136, 72, 72, 0.1);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.gray {
+  color: #918e9b;
 }
 
 .nav--logo {
@@ -40,17 +48,21 @@ section {
   margin-top: 0;
 }
 
-.card > h4 {
-  position: absolute;
+.card {
   width: 175px;
-  height: 14px;
-  left: 37px;
-  top: 787px;
-
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 300;
   font-size: 12px;
-  line-height: 110%;
-  color: #222222;
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.cardStats {
+  display: flex;
+  align-items: center;
+}
+
+.card--star {
+  height: 14px;
 }
